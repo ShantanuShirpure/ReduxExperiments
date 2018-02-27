@@ -23,3 +23,8 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 > npm install
 > npm start
 ```
+Notes:-
+A container is a react component that has direct connection to the state managed by redux.
+React and redux are totally disjointed libraries, the tird library react-redux is used in containers or smart components for the react and redux to communicate.
+Whenever the application state changes, the container will automatically rerender.
+Any user action direct/indirect triggeres an action, the action creator sends the action Type and some data (optional) to ALL the reducers. Based on the type the reducers can choose to act, this is called redux lifecycle.
